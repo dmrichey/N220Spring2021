@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: space-around; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#colorPool {
+  height: 196px;
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+#currentColor {
+  height: 92px;
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 48px;
+}
+
+#buttons {
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  width: 720px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  width: 120px;
+  height: 24px;
+}
