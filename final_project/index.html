@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project - Battleship</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="area">
+      <div class="blank"><!-- STYLE OFFSET TO CENTER GRID ON PAGE --></div>
+      <div id="computer-grid" class="grid"></div>
+      <div id="computer-ships" class="ships"></div>
+    </div>
+    <div id="buttons">
+      <button id="state-control" onclick="changeState()">Begin Play?</button>
+    </div>
+    <div class="area">
+      <div class="blank"><!-- STYLE OFFSET TO CENTER GRID ON PAGE --></div>
+      <div id="player-grid" class="grid"></div>
+      <div id="player-ships" class="ships"></div>
+    </div>
+    <div id="text"><!-- TEXT LOADED DYNAMICALLY --></div>
+
+    <script src="app/app.js"></script>
+  </body>
+</html>
